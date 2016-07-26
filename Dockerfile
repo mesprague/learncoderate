@@ -1,4 +1,6 @@
-FROM node:0.10
+# Use latest lts version of node
+# change to node:latest for the current release
+FROM node:argon
 
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
